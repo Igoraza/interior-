@@ -21,14 +21,21 @@ export default function DreamHome() {
       >
         <div className="flex gap-12 lg:gap-28">
           <motion.div
-            className="relative bottom-32 lg:bottom-56 h-[30rem] rounded-full w-52 bg-gray-300"
+          style={{backgroundImage: `url("https://images.pexels.com/photos/6492393/pexels-photo-6492393.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")`}}
+            className="relative bottom-32 lg:bottom-56 h-[30rem] rounded-full w-52  bg-center bg-contain shadow-xl"
             variants={{
               hidden: { opacity: 0, y: 100 },
               visible: { opacity: 1, y: 0, transition: { duration: 1, ease: "easeOut" } }
             }}
-          ></motion.div>
+          >
+            {/* <img src="https://images.pexels.com/photos/6492393/pexels-photo-6492393.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+            className="h-full w-full object-cover rounded-full"
+            alt="modern table with chair" /> */}
+
+          </motion.div>
           <motion.div
-            className="h-[20rem] bg-gray-400 w-48 lg:w-64 p-2 rounded-b-full lg:block hidden"
+          style={{backgroundImage: `url("https://images.pexels.com/photos/1129413/pexels-photo-1129413.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")`}}
+            className="h-[20rem] w-48 lg:w-64 p-2 rounded-b-full lg:block hidden bg-contain shadow-xl"
             variants={{
               hidden: { opacity: 0, y: 100 },
               visible: { opacity: 1, y: 0, transition: { duration: 1, delay: 0.3, ease: "easeOut" } }

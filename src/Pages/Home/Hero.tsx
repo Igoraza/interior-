@@ -44,16 +44,17 @@ export default function Hero() {
         transition={{ delay: 1, duration: 1.5, ease: "easeOut" }}
       >
         <motion.div 
-          className="absolute right-0 p-2 bg-gray-300 w-[60%] h-[26rem] rounded-bl-[300px]"
+          // style={{backgroundImage: "url('/images/hero.jpg)"}}
+          className="absolute right-0 p-2 bg-white w-[60%] h-[26rem] rounded-bl-[300px]"
           initial={{ scale: 0.5, rotate: -15 }}
           animate={{ scale: 1, rotate: 0 }}
           transition={{ duration: 1.2, ease: "easeOut" }}
         >
-          {/* <img 
+          <img 
             className="h-full w-full object-cover rounded-bl-[300px]" 
-            src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=600" 
+            src="/images/hero.jpg" 
             alt="Interior Design"
-          /> */}
+          />
         </motion.div>
       </motion.div>
     </div>

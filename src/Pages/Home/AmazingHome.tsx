@@ -8,7 +8,8 @@ export default function AmazingHome() {
           </h3>
         </div>
 
-        <div className="h-96 w-full bg-gray-300"></div>
+        <div style={{backgroundImage: `url("https://images.pexels.com/photos/2251247/pexels-photo-2251247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")`}} 
+        className="bg-cover  bg-center bg-fixed bg-no-repeat h-96 w-full bg-gray-300"></div>
         <div className="flex items-center justify-between">
           <div className="lg:h-80 w-full lg:rounded-bl-[600px] gap-6 bg-amber-300 flex flex-wrap justify-center lg:justify-between items-center p-2 lg:p-5 lg:px-16">
             <div className="lg:px-16 flex flex-col items-start justify-center">

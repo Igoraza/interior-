@@ -16,7 +16,9 @@ export default function WorkWithUs() {
             <img src="/svg/white-arrow.svg" alt="" />
         </button>
       </section>
-      <div className="h-80 lg:block hidden  relative -top-5 bg-gray-200 w-48 rounded-br-[600px]"></div>
+      <div
+      style={{backgroundImage: `url("https://images.pexels.com/photos/5864232/pexels-photo-5864232.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")`}}
+      className="h-80 lg:block hidden  relative -top-5 bg-gray-200 w-48 rounded-br-[600px] bg-center bg-fixed"></div>
       </div>
     </div>
   );
