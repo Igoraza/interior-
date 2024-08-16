@@ -1,24 +1,25 @@
 import React from "react";
+
 const DreamSpace: React.FC = () => {
   return (
-    <div className="border border-gray-900">
-      <h1 className="p-4 text-3xl lg:text-6xl max-w-lg  font-bold ">
+    <div className="border border-gray-900 lg:px-16">
+      <h1 className="p-4 text-3xl lg:text-6xl max-w-lg font-bold">
         Create your Dream Space.
       </h1>
-
-      <div className="flex flex-wrap justify-center p-8">
+      
+      <div className="flex flex-wrap justify-center lg:justify-between pl-16 mt-12 mb-12">
         <FeatureCard
           icon={<img src="/svg/home.svg" alt="home image with tool" />}
           title="Smooth workflow"
           description="We deliver the final work with great professional"
         />
         <FeatureCard
-          icon={<img src="/svg/chair.svg" alt="home image with tool" />}
+          icon={<img src="/svg/chair.svg" alt="chair image" />}
           title="Professionalism"
           description="We deliver the final work with great professional"
         />
         <FeatureCard
-          icon={<img src="/svg/brick.svg" alt="home image with tool" />}
+          icon={<img src="/svg/brick.svg" alt="brick image" />}
           title="Trusted platform"
           description="We deliver the final work with great professional"
         />
@@ -40,7 +41,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
 }) => {
   return (
     <div className="flex flex-col items-start text-left">
-      <div className="mb-4">{icon}</div>
+      <div className="mb-4 -ml-2">{icon}</div>
       <h2 className="text-xl font-semibold mb-2 font-sans">{title}</h2>
       <p className="text-gray-600 font-sans max-w-xs">{description}</p>
     </div>
