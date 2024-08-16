@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    font-family: "Playfair Display", serif;
+    /* font-optical-sizing: auto; */
+    /* font-weight: <weight>; */
+    /* font-style: normal; */
+  }
+
+
+  
+  .animate-svg {
+    animation: fadeIn 1s ease-out forwards;
+  }
+  
