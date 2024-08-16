@@ -2,7 +2,7 @@ export default function UniqueDesign() {
   return (
     <div className="min-h-screen">
       <div className="border border-gray-800">
-        <h3 className="mb-12 p-8 text-6xl max-w-2xl font-bold">We will make Unique Designs for you.</h3>
+        <h3 className="mb-12 p-8 text-2xl lg:text-6xl max-w-2xl font-bold">We will make Unique Designs for you.</h3>
 
         {/* body */}
         <div className="w-full h-screen flex gap-4">
@@ -25,7 +25,7 @@ export default function UniqueDesign() {
     </div>
 
 
-    <div className="px-16 m-4  text-left">
+    <div className="lg:px-16 m-4  text-left">
     We create designs in a collaborative environment enabling us to deliver the client’s ultimate vision. Our designs are current, yet still possess a timeless style generating broad market appeal.
     </div>
       </div>

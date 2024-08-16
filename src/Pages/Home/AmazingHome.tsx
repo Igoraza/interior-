@@ -1,17 +1,17 @@
 export default function AmazingHome() {
   return (
     <div className="min-h-screen">
-      <div className="border border-gray-800">
+      <div className="border border-gray-800 ">
         <div className="flex justify-end p-4">
-          <h3 className="text-6xl max-w-3xl text-right">
+          <h3 className="text-2xl lg:text-6xl max-w-3xl text-right">
             Amazing Projects from Talented Interior Architects!
           </h3>
         </div>
 
         <div className="h-96 w-full bg-gray-300"></div>
         <div className="flex items-center justify-between">
-          <div className="h-80 w-full lg:rounded-bl-[600px] gap-6 bg-amber-300 flex flex-wrap justify-center lg:justify-between items-center p-5 lg:px-16">
-            <div className="px-16 flex flex-col items-start justify-center">
+          <div className="lg:h-80 w-full lg:rounded-bl-[600px] gap-6 bg-amber-300 flex flex-wrap justify-center lg:justify-between items-center p-2 lg:p-5 lg:px-16">
+            <div className="lg:px-16 flex flex-col items-start justify-center">
               <h3 className="text-3xl font-bold mb-2 font-sans">
                 Modern Style
               </h3>

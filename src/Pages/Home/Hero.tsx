@@ -5,13 +5,13 @@ export default function Hero() {
   return (
     <div className="h-screen w-full flex items-center justify-center overflow-hidden">
       <motion.div 
-        className="h-full w-full lg:w-3/4 bg-[#FFD476] rounded-tr-[50%] flex flex-col justify-center items-start text-left"
+        className="h-full w-full lg:w-3/4 bg-[#FFD476] lg:rounded-tr-[50%] flex flex-col justify-center items-start text-left"
         initial={{ x: '-100%', opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 1.2, ease: "easeOut" }}
       >
         <motion.h3 
-          className="z-50 text-8xl lg:px-16 text-gray-900"
+          className="z-50 text-4xl lg:text-8xl lg:px-16 text-gray-900"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 1, ease: "easeOut" }}

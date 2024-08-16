@@ -28,7 +28,7 @@ export default function DreamHome() {
             }}
           ></motion.div>
           <motion.div
-            className="h-[20rem] bg-gray-400 w-48 lg:w-64 p-2 rounded-b-full"
+            className="h-[20rem] bg-gray-400 w-48 lg:w-64 p-2 rounded-b-full lg:block hidden"
             variants={{
               hidden: { opacity: 0, y: 100 },
               visible: { opacity: 1, y: 0, transition: { duration: 1, delay: 0.3, ease: "easeOut" } }
@@ -37,7 +37,7 @@ export default function DreamHome() {
         </div>
 
         <motion.div
-          className="h-96  flex items-center justify-evenly w-full "
+          className="h-96   flex items-center justify-evenly w-full "
           variants={{
             hidden: { opacity: 0 },
             visible: { opacity: 1, transition: { duration: 1.5, delay: 0.5, ease: "easeOut" } }
@@ -85,8 +85,8 @@ export default function DreamHome() {
       </motion.section>
 
       {/* second section */}
-      <div className="relative bottom-56 flex flex-wrap justify-between items-center ">
-        <div className="flex gap-6">
+      <div className="relative mt-24 bottom-56 flex flex-wrap justify-between items-center ">
+        <div className="flex gap-32 lg:gap-6">
         <SvgPatternIcon/>
         <img src="/light.png" className="mt-12 shadow-xl rounded-full" alt="Ligt image" />
         </div>
@@ -96,11 +96,13 @@ export default function DreamHome() {
 
         </div>
 
-        <div>
+        <div className="p-2 flex justify-center items-center w-full">
+            <div>
             <h3 className="text-2xl font-bold">Make Your Dream Home</h3>
             <div className="flex items-center">
                 <input type="text" placeholder="your email address" className="input text-gray-900 placeholder:text-gray-900 placeholder:font-serif bg-gray-200 rounded-r-none" />
                 <button className="btn bg-black text-white rounded-l-none">Lets Chat</button>
+            </div>
             </div>
         </div>
 
