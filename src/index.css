@@ -8,6 +8,9 @@ body {
     /* font-optical-sizing: auto; */
     /* font-weight: <weight>; */
     /* font-style: normal; */
+    background-image: linear-gradient(#9c9c9c 0.5px, transparent 0.5px, transparent calc(100% - 0.5px), #9c9c9c calc(100% - 0.5px)), linear-gradient(90deg, #9c9c9c 0.5px, transparent 0.5px, transparent calc(100% - 0.5px), #9c9c9c calc(100% - 0.5px));
+    background-size: 33.333333333333336% 25%;
+    border: 0.1px solid #9c9c9c;
   }
 
 

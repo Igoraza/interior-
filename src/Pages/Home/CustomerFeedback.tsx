@@ -1,6 +1,6 @@
 export default function CustomerFeedback() {
   return (
-    <div className="min-h-screen border border-gray-800">
+    <div className="min-h-screen border border-gray-300">
       <div className="bg-white p-4">
         <header className="flex p-2 lg:p-4 mx-auto max-w-4xl justify-between items-center">
           <h3 className="text-2xl lg:text-7xl font-bold max-w-xl">

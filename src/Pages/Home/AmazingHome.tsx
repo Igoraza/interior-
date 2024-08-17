@@ -1,7 +1,7 @@
 export default function AmazingHome() {
   return (
     <div className="min-h-screen">
-      <div className="border border-gray-800 ">
+      <div className="border border-gray-300 ">
         <div className="flex justify-end p-4">
           <h3 className="text-2xl lg:text-6xl max-w-3xl text-right">
             Amazing Projects from Talented Interior Architects!

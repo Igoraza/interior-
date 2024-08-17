@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const InnovativeDesign: React.FC = () => {
   return (
-    <div className="min-h-screen border border-gray-900">
+    <div className="min-h-screen border border-gray-300">
       <div className="flex justify-end p-3 lg:p-5">
         <h2 className="text-7xl max-w-2xl text-right">
           Providing Innovative Interior Design.

@@ -2,10 +2,12 @@ import React from "react";
 
 const DreamSpace: React.FC = () => {
   return (
-    <div className="border border-gray-900 lg:px-16">
+    <div className="border border-t-0 border-gray-300 lg:px-16 min-h-screen">
+      <div className="flex items-center justify-between">
       <h1 className="p-4 text-3xl lg:text-6xl max-w-lg font-bold">
         Create your Dream Space.
       </h1>
+      </div>
       
       <div className="flex flex-wrap justify-center lg:justify-between pl-16 mt-12 mb-12">
         <FeatureCard
