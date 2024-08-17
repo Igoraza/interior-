@@ -1,10 +1,12 @@
 import React from 'react';
 import { motion } from "framer-motion";
+import BlurBackground from '../../Components/BlurBackground';
 
 const InnovativeDesign: React.FC = () => {
   return (
     <div className="min-h-screen border border-gray-300">
-      <div className="flex justify-end p-3 lg:p-5">
+      <div className="flex justify-between items-center p-3 lg:p-5">
+        <BlurBackground/>
         <h2 className="text-7xl max-w-2xl text-right">
           Providing Innovative Interior Design.
         </h2>

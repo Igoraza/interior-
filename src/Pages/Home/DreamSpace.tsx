@@ -1,4 +1,5 @@
 import React from "react";
+import BlurBackground from "../../Components/BlurBackground";
 
 const DreamSpace: React.FC = () => {
   return (
@@ -7,6 +8,7 @@ const DreamSpace: React.FC = () => {
       <h1 className="p-4 text-3xl lg:text-6xl max-w-lg font-bold">
         Create your Dream Space.
       </h1>
+      <BlurBackground/>
       </div>
       
       <div className="flex flex-wrap justify-center lg:justify-between pl-16 mt-12 mb-12">
