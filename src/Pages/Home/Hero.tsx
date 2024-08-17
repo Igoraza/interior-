@@ -27,7 +27,7 @@ export default function Hero() {
           Interiorfirm is an acclaimed multidisciplinary studio specializing in interior architecture, interior design, and décor that redefines laid-back luxury.
         </motion.p>
         <motion.button 
-          className="mt-12 ml-52 lg:ml-96 btn bg-teal-600 hover:text-teal-500 text-white border-none"
+          className="text-nowrap lg:mt-12 ml-10 lg:ml-96 btn bg-teal-600 hover:text-teal-500 text-white border-none"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.6, duration: 0.8, ease: "easeOut" }}

@@ -67,7 +67,7 @@ export default function DreamHome() {
           <div className="flex gap-8 lg:gap-16">
             <aside className="text-center">
               <motion.h3
-                className="font-bold text-6xl font-mono"
+                className="font-bold text-3xl lg:text-6xl font-mono"
                 variants={{
                   hidden: { scale: 0.8 },
                   visible: {
@@ -93,7 +93,7 @@ export default function DreamHome() {
             </aside>
             <aside className="text-center">
               <motion.h3
-                className="font-bold text-6xl font-mono"
+                className="font-bold text-3xl lg:text-6xl font-mono"
                 variants={{
                   hidden: { scale: 0.8 },
                   visible: {
@@ -120,15 +120,15 @@ export default function DreamHome() {
           </div>
           <div className="p-2 flex justify-center items-center w-full mb-24 ">
             {/* ?input */}
-            <div >
+            <div className="mb-4">
               <h3 className="text-2xl font-bold">Make Your Dream Home</h3>
-              <div className="flex items-center">
+              <div className="lg:flex grid gap-y-2 items-center">
                 <input
                   type="text"
                   placeholder="your email address"
                   className="input w-72 text-gray-900 placeholder:text-gray-900 placeholder:font-serif bg-gray-200 rounded-r-none"
                 />
-                <button className="btn bg-black text-white rounded-l-none">
+                <button className="btn w-full lg:w-24 bg-black text-white lg:rounded-l-none">
                   Lets Chat
                 </button>
               </div>
@@ -140,8 +140,8 @@ export default function DreamHome() {
       </motion.section>
 
       {/* second section */}
-      <div className="relative mt-24 bottom-56 flex flex-wrap justify-between items-center ">
-        <div className="flex gap-32 lg:gap-6">
+      <div className="relative mt-24 lg:bottom-56 flex flex-wrap justify-between items-center ">
+        <div className="flex gap-3 lg:gap-6">
           <SvgPatternIcon />
           <img
             src="/light.png"

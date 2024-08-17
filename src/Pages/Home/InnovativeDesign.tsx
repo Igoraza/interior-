@@ -7,7 +7,7 @@ const InnovativeDesign: React.FC = () => {
     <div className="min-h-screen border border-gray-300">
       <div className="flex justify-between items-center p-3 lg:p-5">
         <BlurBackground/>
-        <h2 className="text-7xl max-w-2xl text-right">
+        <h2 className="text-5xl lg:text-7xl max-w-2xl text-right">
           Providing Innovative Interior Design.
         </h2>
       </div>
