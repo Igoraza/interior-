@@ -16,8 +16,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 1, ease: "easeOut" }}
         >
-          Modern Interior Design Service
-        </motion.h3>
+Transforming Spaces with Modern Aesthetics        </motion.h3>
         <motion.p 
           className="relative lg:px-16 left-0 p-2 max-w-sm lg:max-w-2xl mt-3 z-50"
           initial={{ opacity: 0, y: 50 }}
