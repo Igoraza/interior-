@@ -1,35 +1,49 @@
 export default function CustomerFeedback() {
   return (
-    <div className="min-h-screen border border-gray-300">
-      <div className="bg-white p-4">
-        <header className="flex p-2 lg:p-4 mx-auto max-w-4xl justify-between items-center">
-          <h3 className="text-2xl lg:text-7xl font-bold max-w-xl">
-            Our Coustemers Feedback.
+    <div className="min-h-screen bg-white px-4 py-10">
+      <div className="max-w-6xl mx-auto">
+        {/* Header */}
+        <header className="flex flex-col md:flex-row justify-between items-center gap-4">
+          <h3 className="text-3xl md:text-6xl font-bold text-center md:text-left">
+            Our Customers' Feedback
           </h3>
-          <img src="/svg/quote.svg" className="h-12 lg:h-auto" alt="QUOTE LARGE IMAGE" />
+          <img
+            src="/svg/quote.svg"
+            className="h-10 md:h-20"
+            alt="Quote Icon"
+          />
         </header>
-        <section className="mt-8 lg:p-4 mx-auto max-w-4xl h-96 w-full gap-24 bg-gray-100">
-          <div className="flex gap-12 h-96">
-            <div 
-            style={{backgroundImage: `url("https://images.pexels.com/photos/3315291/pexels-photo-3315291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")`}} 
-            className="h-72 bg-gray-500 w-1/3 p-2 rounded-br-[600px] bg-center bg-fixed"></div>
-            <div className="flex flex-col items-start">
-              <h2 className="text-3xl font-bold">Anjali M</h2>
-              <p className="mt-6 max-w-2xl text-xl font-sans">
+
+        {/* Feedback Section */}
+        <section className="mt-10 flex flex-col md:flex-row gap-8 bg-gray-100 p-6 rounded-xl shadow-sm">
+          {/* Image */}
+          <div
+            className="w-full md:w-1/3 h-64 md:h-auto bg-center bg-cover rounded-br-[80px]"
+            style={{
+              backgroundImage:
+                `url("https://images.pexels.com/photos/3315291/pexels-photo-3315291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")`,
+            }}
+          ></div>
+
+          {/* Feedbacks */}
+          <div className="flex-1 space-y-10">
+            {/* Anjali */}
+            <div>
+              <h2 className="text-xl md:text-2xl font-bold">Anjali M</h2>
+              <p className="mt-3 text-gray-700 text-base md:text-lg">
                 “Rethna Interiors turned my house into a dream home. The team was professional, creative, and easy to work with!”
-
               </p>
-              <h2 className="mt-12 font-sans font-bold">Anjali M</h2>
-              
+              <p className="mt-2 font-semibold">— Anjali M</p>
             </div>
-            <div className="flex flex-col items-start">
-              <h2 className="text-3xl font-bold">Rahath Salim</h2>
-              <p className="mt-6 max-w-2xl text-xl font-sans">
-                “Great service and top-quality work. Loved the flooring and finishing. Highly recommend Rethna Interiors!”
 
+            {/* Rahath */}
+            <div>
+              <h2 className="text-xl md:text-2xl font-bold">Rahath Salim</h2>
+              <p className="mt-3 text-gray-700 text-base md:text-lg">
+                “Great service and top-quality work. Loved the flooring and finishing. Highly recommend Rethna Interiors!”
               </p>
-              <h2 className="mt-12 font-sans font-bold">Rahath Salim</h2>
-              </div>
+              <p className="mt-2 font-semibold">— Rahath Salim</p>
+            </div>
           </div>
         </section>
       </div>

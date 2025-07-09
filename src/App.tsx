@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
+import WhatsAppChat from "./Components/WhatsappChat"; // 👈 import the new component
 
 // Pages
 import Home from "./Pages/Home/Home";
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/service" element={<Service />} />
       </Routes>
       <Footer />
+      <WhatsAppChat /> {/* 👈 Add here so it appears on all pages */}
     </main>
   );
 }
