@@ -5,9 +5,9 @@ const WhatsAppChat: React.FC = () => {
   return (
     <div className="fixed bottom-4 right-4 z-50 flex items-end space-x-2">
       {/* Floating Label */}
-      <div className="bg-white text-gray-800 text-sm px-3 py-1 rounded-md shadow-md mb-1 translate-y-[-4px] translate-x-[-4px]">
+      {/* <div className="bg-white text-gray-800 text-sm px-3 py-1 rounded-md shadow-md mb-1 translate-y-[-4px] translate-x-[-4px]">
          Chat with us
-      </div>
+      </div> */}
 
       {/* WhatsApp Icon */}
       <a

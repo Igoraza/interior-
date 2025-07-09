@@ -41,7 +41,7 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-        <Link to="/" className="btn bg-transparent border-none text-xl">
+        <Link to="/" className="btn bg-transparent border-none text-xl ">
           Rethna Interiors
         </Link>
       </div>

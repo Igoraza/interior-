@@ -18,48 +18,55 @@ const Footer: React.FC = () => {
             <p className="text-sm">
               Where creativity meets craftsmanship — delivering inspiring interior solutions for homes and businesses.
             </p>
+            <p>
+              Ph: <a className="text-blue-600 hover:underline">+91 9747738133</a>
+            </p>
+            <p>
+              email: rajesh12r@gmail.com
+            </p>
           </div>
 
           {/* Right Section */}
           <div className="flex flex-wrap gap-10 lg:gap-16">
             <div className="flex flex-col">
-              <h3 className="font-semibold text-lg mb-4">Company</h3>
+              <h3 className="font-semibold text-lg mb-4">Useful Links</h3>
               <ul className="space-y-2 text-sm">
-                <li>Career</li>
                 <li>
                   <Link to="/about" className="hover:underline">About Us</Link>
                 </li>
-                <li>Blog</li>
-                <li>Feature</li>
-                <li>Story</li>
-              </ul>
-            </div>
-
-            <div className="flex flex-col">
-              <h3 className="font-semibold text-lg mb-4">Design</h3>
-              <ul className="space-y-2 text-sm">
-                <li>2D Designer</li>
-                <li>3D Designer</li>
-                <li>Collaboration</li>
-                <li>Tools</li>
-                <li>Important Link</li>
-              </ul>
-            </div>
-
-            <div className="flex flex-col">
-              <h3 className="font-semibold text-lg mb-4">Links</h3>
-              <ul className="space-y-2 text-sm">
                 <li>
                   <Link to="/projects" className="hover:underline">Projects</Link>
                 </li>
-                <li>Contact</li>
-                <li>Send Email</li>
-                <li>Fivver</li>
-                <li>upWork</li>
+                <li>
+                  <Link to="/service" className="hover:underline">Services</Link>
+                </li>
+                <li>Contact Us</li>
               </ul>
             </div>
 
             <div className="flex flex-col">
+              <h3 className="font-semibold text-lg mb-4">Our Services</h3>
+              <ul className="space-y-2 text-sm">
+                <li>Interior Designing</li>
+                <li>3D Visualization</li>
+                <li>Kitchen Interior</li>
+                <li>Landscaping</li>
+                {/* <li>Important Link</li> */}
+              </ul>
+            </div>
+
+            <div className="flex flex-col">
+              <h3 className="font-semibold text-lg mb-4">Location</h3>
+              <ul className="space-y-2 text-sm">
+                
+                <li>Alappuzha</li>
+                <li>Ernakulam</li>
+                <li>Kottayam</li>
+                <li>Kollam</li>
+              </ul>
+            </div>
+
+            {/* <div className="flex flex-col">
               <h3 className="font-semibold text-lg mb-4">Material</h3>
               <ul className="space-y-2 text-sm">
                 <li>Company Profile</li>
@@ -68,17 +75,18 @@ const Footer: React.FC = () => {
                 <li>Estimate Cost</li>
                 <li>Default Quotation</li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
 
         {/* Bottom Section */}
         <div className="flex flex-col lg:flex-row justify-between items-center mt-10 border-t border-gray-300 pt-6 text-xs text-gray-600">
           <div>
-            © Copyright & All Rights Reserved 2025 — IGORAZA PRIVATE LIMITED
+            <span className='font-bold'>Design and Developed by </span>
+            <a href="https://www.igoraza.com/" className="text-red-700 hover:underline">IGORAZA</a>
           </div>
           <div className="flex space-x-4 mt-4 lg:mt-0">
-            {/* Optional Privacy & Terms */}
+              All Rights Reserved © 2025 - IGORAZA PRIVATE LIMITED
           </div>
         </div>
       </div>
