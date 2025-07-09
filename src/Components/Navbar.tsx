@@ -42,7 +42,7 @@ export default function Navbar() {
           </ul>
         </div>
         <Link to="/" className="btn bg-transparent border-none text-xl">
-          interiofirm
+          Rethna Interiors
         </Link>
       </div>
 
