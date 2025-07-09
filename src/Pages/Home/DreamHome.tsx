@@ -76,7 +76,7 @@ export default function DreamHome() {
                   },
                 }}
               >
-                24
+                10
               </motion.h3>
               <motion.span
                 variants={{
@@ -102,7 +102,7 @@ export default function DreamHome() {
                   },
                 }}
               >
-                162
+                100
               </motion.h3>
               <motion.span
                 variants={{

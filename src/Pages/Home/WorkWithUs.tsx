@@ -4,7 +4,7 @@ export default function WorkWithUs() {
       <div className="flex lg:max-w-5xl gap-24 mx-auto">
       <section className="">
         <h2 className="text-3xl lg:text-7xl max-w-2xl font-bold">
-          Intereste in Working with Us?
+          Interested in Working with Us?
         </h2>
         <p className="max-w-3xl mt-8 text-xl">
           Do you have a passion for creating beautiful and functional spaces? If

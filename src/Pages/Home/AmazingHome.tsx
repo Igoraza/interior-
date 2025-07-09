@@ -18,9 +18,7 @@ export default function AmazingHome() {
               </h3>
               <p className="max-w-2xl text-lg tracking-wide font-sans">
                 The modernist movement began to take shape when it shifted away
-                from traditional construction and design elements such as wood,
-                stone, and brick and toward industrial materials like as glass,
-                steel, and concrete.
+                from traditional construction and design elements.
               </p>
             </div>
             <button className="btn bg-teal-600 hover:bg-teal-900 border-none text-white">

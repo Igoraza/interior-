@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // 👈 Important for routing
 
 const Footer: React.FC = () => {
   return (
@@ -12,25 +13,28 @@ const Footer: React.FC = () => {
           {/* Left Section */}
           <div className="lg:w-1/4">
             <h2 className="text-3xl font-bold text-black mb-4 font-mono">
-              interiorfirm
+              Rethna Interiors
             </h2>
             <p className="text-sm">
-              Interiorfirm is an acclaimed multidisciplinary studio specializing
-              in interior architecture, interior design.
+              Where creativity meets craftsmanship — delivering inspiring interior solutions for homes and businesses.
             </p>
           </div>
+
           {/* Right Section */}
           <div className="flex flex-wrap gap-10 lg:gap-16">
             <div className="flex flex-col">
               <h3 className="font-semibold text-lg mb-4">Company</h3>
               <ul className="space-y-2 text-sm">
                 <li>Career</li>
-                <li>About Us</li>
+                <li>
+                  <Link to="/about" className="hover:underline">About Us</Link>
+                </li>
                 <li>Blog</li>
                 <li>Feature</li>
                 <li>Story</li>
               </ul>
             </div>
+
             <div className="flex flex-col">
               <h3 className="font-semibold text-lg mb-4">Design</h3>
               <ul className="space-y-2 text-sm">
@@ -41,16 +45,20 @@ const Footer: React.FC = () => {
                 <li>Important Link</li>
               </ul>
             </div>
+
             <div className="flex flex-col">
               <h3 className="font-semibold text-lg mb-4">Links</h3>
               <ul className="space-y-2 text-sm">
-                <li>Projects</li>
+                <li>
+                  <Link to="/projects" className="hover:underline">Projects</Link>
+                </li>
                 <li>Contact</li>
                 <li>Send Email</li>
                 <li>Fivver</li>
                 <li>upWork</li>
               </ul>
             </div>
+
             <div className="flex flex-col">
               <h3 className="font-semibold text-lg mb-4">Material</h3>
               <ul className="space-y-2 text-sm">
@@ -63,14 +71,14 @@ const Footer: React.FC = () => {
             </div>
           </div>
         </div>
+
         {/* Bottom Section */}
         <div className="flex flex-col lg:flex-row justify-between items-center mt-10 border-t border-gray-300 pt-6 text-xs text-gray-600">
           <div>
             © Copyright & All Rights Reserved 2025 — IGORAZA PRIVATE LIMITED
           </div>
           <div className="flex space-x-4 mt-4 lg:mt-0">
-            {/* <span>Privacy Policy</span>
-            <span>Terms & Conditions</span> */}
+            {/* Optional Privacy & Terms */}
           </div>
         </div>
       </div>

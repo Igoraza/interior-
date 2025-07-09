@@ -15,17 +15,18 @@ const DreamSpace: React.FC = () => {
         <FeatureCard
           icon={<img src="/svg/home.svg" alt="home image with tool" />}
           title="Smooth workflow"
-          description="We deliver the final work with great professional"
+          description="From design to delivery, our process ensures efficiency, transparency, and quality at every step."
         />
         <FeatureCard
           icon={<img src="/svg/chair.svg" alt="chair image" />}
           title="Professionalism"
-          description="We deliver the final work with great professional"
+          description="Our team combines creativity with discipline to bring your ideas to life with precision and care.
+"
         />
         <FeatureCard
           icon={<img src="/svg/brick.svg" alt="brick image" />}
           title="Trusted platform"
-          description="We deliver the final work with great professional"
+          description="We use top-grade materials and expert workmanship to build spaces that are both beautiful and durable."
         />
       </div>
     </div>

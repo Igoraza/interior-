@@ -17,16 +17,11 @@ export default function About() {
           Who We Are
         </h2>
         <p className="text-gray-700 text-md md:text-lg leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed
-          aliquet urna. Pellentesque habitant morbi tristique senectus et
-          netus et malesuada fames ac turpis egestas. In scelerisque, nisl at
-          facilisis tristique, justo est sagittis eros, sed dignissim lectus
-          nisl sit amet erat.
+          Rethna Interiors crafts spaces that inspire. We believe your environment shapes your experience. Blending innovative design with timeless elegance, we transform houses into homes and workplaces into havens of productivity. 
           <br />
           <br />
-          Integer fringilla augue et turpis fermentum posuere. Curabitur sit
-          amet vehicula nunc. Sed et massa quis quam sodales fermentum.
-          Pellentesque nec orci ac magna malesuada faucibus.
+          Our meticulous attention to detail and collaborative approach ensure each project reflects your unique vision and lifestyle, creating interiors that resonate deeply and endure beautifully. 
+          <br />
         </p>
       </div>
     </div>
