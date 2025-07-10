@@ -42,7 +42,7 @@ const FloatingChatButtons: React.FC = () => {
     <div className="fixed bottom-4 right-4 z-50 flex flex-col md:flex-row items-end md:items-center space-y-3 md:space-y-0 md:space-x-3">
       {/* WhatsApp */}
       <a
-        href="https://wa.me/919747738133"
+        href="https://api.whatsapp.com/send?phone=919747738133&text=Hi%2C%20I%20want%20to%20know%20more%20about%20Rethna%20Interiors"
         target="_blank"
         rel="noopener noreferrer"
         className="bg-green-500 text-white p-3 rounded-full shadow-xl hover:scale-105 transition-transform duration-300"

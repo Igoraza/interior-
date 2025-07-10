@@ -20,7 +20,7 @@ const DreamSpace: React.FC = () => {
         <FeatureCard
           icon={<img src="/svg/chair.svg" alt="chair image" />}
           title="Professionalism"
-          description="Our team combines creativity with discipline to bring your ideas to life with precision and care.
+          description="We combines creativity with discipline to bring your ideas to life with precision and care.
 "
         />
         <FeatureCard
