@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function WorkWithUs() {
   return (
     <div className="w-full bg-amber-300 p-5 lg:rounded-br-[600px]">
@@ -10,10 +12,10 @@ export default function WorkWithUs() {
           Do you have a passion for creating beautiful and functional spaces? If
           you are interested in working with us, feel free to contact us.
         </p>
-        <a href="/service" className="btn bg-teal-500 text-white border-none hover:bg-teal-900 mt-8">
+        <Link to="/service" className="btn bg-teal-500 text-white border-none hover:bg-teal-900 mt-8">
             Explore Now
             <img src="/svg/white-arrow.svg" alt="" />
-        </a>
+        </Link>
       </section>
       <div
       style={{backgroundImage: `url("https://images.pexels.com/photos/5864232/pexels-photo-5864232.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")`}}
