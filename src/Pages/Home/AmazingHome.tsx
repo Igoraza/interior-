@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function AmazingHome() {
   return (
     <div className="min-h-screen">
@@ -21,10 +23,10 @@ export default function AmazingHome() {
                 from traditional construction and design elements.
               </p>
             </div>
-            <a href="/projects" className="btn bg-teal-600 hover:bg-teal-900 border-none text-white">
+            <Link to="/projects" className="btn bg-teal-600 hover:bg-teal-900 border-none text-white">
               Explore
               <img src="/svg/white-arrow.svg" alt="" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
