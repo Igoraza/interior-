@@ -35,7 +35,7 @@ export default function UniqueDesign() {
 
 
     <div className="lg:px-16 m-4  text-left">
-    We create designs in a collaborative environment enabling us to deliver the client’s ultimate vision. Our designs are current, yet still possess a timeless style generating broad market appeal.
+    We create designs in a collaborative environment enabling us to deliver the client’s ultimate vision. 
     </div>
       </div>
 
