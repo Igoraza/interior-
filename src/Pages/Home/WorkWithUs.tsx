@@ -8,8 +8,7 @@ export default function WorkWithUs() {
         </h2>
         <p className="max-w-3xl mt-8 text-xl">
           Do you have a passion for creating beautiful and functional spaces? If
-          you are interested in working with us, please visit our website and
-          fill out the application form.
+          you are interested in working with us, feel free to contact us.
         </p>
         <a href="/service" className="btn bg-teal-500 text-white border-none hover:bg-teal-900 mt-8">
             Explore Now

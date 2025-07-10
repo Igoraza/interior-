@@ -23,7 +23,9 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 1, ease: "easeOut" }}
         >
-Interior design that reflects your lifestyle and vision.        </motion.p>
+Interior design that reflects your lifestyle and vision.
+        </motion.p>
+        <a href="#dream-space" className="text-gray-900 lg:px-16 mt-4 z-50">
         <motion.button
           className="text-nowrap lg:mt-12 ml-10 lg:ml-96 btn bg-teal-600 hover:text-teal-500 text-white border-none"
           initial={{ opacity: 0, scale: 0.8 }}
@@ -34,6 +36,7 @@ Interior design that reflects your lifestyle and vision.        </motion.p>
           Explore Now
           <HiArrowLongRight />
         </motion.button>
+        </a>
       </motion.div>
       <motion.div
         className="h-full w-1/4 lg:flex hidden items-center justify-center"

@@ -3,7 +3,7 @@ import BlurBackground from "../../Components/BlurBackground";
 
 const DreamSpace: React.FC = () => {
   return (
-    <div className="border border-t-0 border-gray-300 lg:px-16 min-h-screen">
+    <div id="dream-space" className="border border-t-0 border-gray-300 lg:px-16 min-h-screen">
       <div className="flex items-center justify-between">
       <h1 className="p-4 text-3xl lg:text-6xl max-w-lg font-bold">
         Create your Dream Space.
