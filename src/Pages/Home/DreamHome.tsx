@@ -18,6 +18,8 @@ export default function DreamHome() {
           visible: { opacity: 1, y: 0, transition: { duration: 1 } },
         }}
       >
+
+        
         <div className="flex gap-12 lg:gap-28">
           <motion.div
             style={{
@@ -53,8 +55,35 @@ export default function DreamHome() {
           ></motion.div>
         </div>
 
-        <motion.div
-          className="h-96   flex items-center justify-evenly w-full "
+        
+
+        {/*  */}
+      </motion.section>
+
+      {/* second section */}
+      <div className="relative mt-24 lg:bottom-56 flex flex-wrap justify-between items-center ">
+        <div className="flex gap-3 lg:gap-6">
+          <SvgPatternIcon />
+          <img
+            src="/light.png"
+            className="mt-12 shadow-xl rounded-full"
+            alt="Ligt image"
+          />
+        </div>
+
+       
+
+        <div className="flex gap-3 lg:gap-6 hidden lg:flex">
+          <SvgPatternIcon />
+          <img
+            src="/light.png"
+            className="mt-12 shadow-xl rounded-full "
+            alt="Ligt image"
+          />
+        </div>
+
+                <motion.div
+          className="h-96   flex items-center justify-evenly w-full mt-20 lg:mt-40 lg:rounded-t-full p-4"
           variants={{
             hidden: { opacity: 0 },
             visible: {
@@ -63,11 +92,11 @@ export default function DreamHome() {
             },
           }}
         >
-          <div className="flex flex-col justify-center lg:gap-12">
+          <div className="flex flex-col justify-center lg:gap-12 ">
           <div className="flex gap-8 lg:gap-16">
             <aside className="text-center">
               <motion.h3
-                className="font-bold text-3xl lg:text-6xl font-mono"
+                className="font-bold text-3xl lg:text-6xl font-mono text-red-600"
                 variants={{
                   hidden: { scale: 0.8 },
                   visible: {
@@ -76,7 +105,7 @@ export default function DreamHome() {
                   },
                 }}
               >
-                10
+                10+
               </motion.h3>
               <motion.span
                 variants={{
@@ -93,7 +122,7 @@ export default function DreamHome() {
             </aside>
             <aside className="text-center">
               <motion.h3
-                className="font-bold text-3xl lg:text-6xl font-mono"
+                className="font-bold text-3xl lg:text-6xl font-mono text-red-600"
                 variants={{
                   hidden: { scale: 0.8 },
                   visible: {
@@ -102,7 +131,7 @@ export default function DreamHome() {
                   },
                 }}
               >
-                100
+                100+
               </motion.h3>
               <motion.span
                 variants={{
@@ -125,34 +154,20 @@ export default function DreamHome() {
               <div className="lg:flex grid gap-y-2 items-center">
                 <input
                   type="text"
-                  placeholder="your email address"
+                  placeholder="Enter your WhatsApp number"
                   className="input w-72 text-gray-900 placeholder:text-gray-900 placeholder:font-serif bg-gray-200 rounded-r-none"
                 />
-                <button className="btn w-full lg:w-24 bg-black text-white lg:rounded-l-none">
+                <a href="https://api.whatsapp.com/send?phone=919747738133&text=Hi%2C%20I%20want%20to%20know%20more%20about%20Rethna%20Interiors" className="btn w-full lg:w-24 bg-black text-white lg:rounded-l-none">
                   Lets Chat
-                </button>
+                </a>
               </div>
             </div>
             {/* ?input close */}
           </div>
           </div>
         </motion.div>
-      </motion.section>
 
-      {/* second section */}
-      <div className="relative mt-24 lg:bottom-56 flex flex-wrap justify-between items-center ">
-        <div className="flex gap-3 lg:gap-6">
-          <SvgPatternIcon />
-          <img
-            src="/light.png"
-            className="mt-12 shadow-xl rounded-full"
-            alt="Ligt image"
-          />
-        </div>
-
-        <div>
-          <img src="/arrow.svg" className="hidden lg:block" alt="Arrow Image" />
-        </div>
+        
 
         {/*  */}
       </div>

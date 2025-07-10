@@ -11,10 +11,10 @@ export default function WorkWithUs() {
           you are interested in working with us, please visit our website and
           fill out the application form.
         </p>
-        <button className="btn bg-teal-500 text-white border-none hover:bg-teal-900 mt-8">
+        <a href="/service" className="btn bg-teal-500 text-white border-none hover:bg-teal-900 mt-8">
             Explore Now
             <img src="/svg/white-arrow.svg" alt="" />
-        </button>
+        </a>
       </section>
       <div
       style={{backgroundImage: `url("https://images.pexels.com/photos/5864232/pexels-photo-5864232.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")`}}

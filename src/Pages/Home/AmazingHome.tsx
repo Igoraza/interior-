@@ -21,10 +21,10 @@ export default function AmazingHome() {
                 from traditional construction and design elements.
               </p>
             </div>
-            <button className="btn bg-teal-600 hover:bg-teal-900 border-none text-white">
+            <a href="/projects" className="btn bg-teal-600 hover:bg-teal-900 border-none text-white">
               Explore
               <img src="/svg/white-arrow.svg" alt="" />
-            </button>
+            </a>
           </div>
         </div>
       </div>

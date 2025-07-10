@@ -27,7 +27,7 @@ const InnovativeDesign: React.FC = () => {
           <div className="max-w-md text-left lg:mt-48">
             <p className="mb-4 font-sans text-justify">With decades of experience, we’ve proudly delivered outstanding interior solutions to both homeowners and commercial clients. From concept to completion, our commitment to quality, detail, and client satisfaction remains unmatched.</p>
             <div className="flex items-center justify-between">
-            <button className='btn font-sans hover:bg-teal-900 hover:text-white bg-teal-500 border-none text-black px-6 py-2 rounded'>About Us</button>
+            <a href='/about' className='btn font-sans hover:bg-teal-900 hover:text-white bg-teal-500 border-none text-black px-6 py-2 rounded'>About Us</a>
             <img src="/arrow.svg" alt="arrow image" />
             </div>
           </div>

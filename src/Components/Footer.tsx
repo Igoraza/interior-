@@ -86,7 +86,7 @@ const Footer: React.FC = () => {
             <a href="https://www.igoraza.com/" className="text-red-700 hover:underline">IGORAZA</a>
           </div>
           <div className="flex space-x-4 mt-4 lg:mt-0">
-              All Rights Reserved © 2025 - IGORAZA PRIVATE LIMITED
+              All Rights Reserved © 2025 - <span className='font-bold'>IGORAZA PRIVATE LIMITED</span>
           </div>
         </div>
       </div>

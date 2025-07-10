@@ -51,7 +51,7 @@ const FloatingChatButtons: React.FC = () => {
       </a>
 
       {/* Instagram */}
-      <InstagramChat profileUrl="https://www.instagram.com/interiorsrethna/?igsh=MWE1NWJ0YTc4ZGR5dg%3D%3D#" />
+      <InstagramChat profileUrl="https://www.instagram.com/interiorsrethna/?" />
 
       {/* Email */}
       <a
