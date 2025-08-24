@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
               Ph: <a className="text-blue-600 hover:underline">+91 9747738133</a>
             </p>
             <p>
-              email: rajesh12r@gmail.com
+              email: rajesh133r@gmail.com
             </p>
           </div>
 

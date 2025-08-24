@@ -105,7 +105,7 @@ export default function DreamHome() {
                   },
                 }}
               >
-                10+
+                30+
               </motion.h3>
               <motion.span
                 variants={{
@@ -131,7 +131,7 @@ export default function DreamHome() {
                   },
                 }}
               >
-                100+
+                1000+
               </motion.h3>
               <motion.span
                 variants={{

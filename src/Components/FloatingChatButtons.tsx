@@ -55,7 +55,7 @@ const FloatingChatButtons: React.FC = () => {
 
       {/* Email */}
       <a
-        href="mailto:rajesh12r@gmail.com"
+        href="mailto:rajesh133r@gmail.com"
         className="bg-blue-600 text-white p-3 rounded-full shadow-xl hover:scale-105 transition-transform duration-300"
         aria-label="Send Email"
       >
