@@ -61,6 +61,9 @@ export default function Navbar() {
             <Link to="/projects">Projects</Link>
           </li>
           <li>
+            <Link to="/gallery">Gallery</Link>
+          </li>
+          <li>
             <button onClick={scrollToFooter}>Contact Us</button>
           </li>
         </ul>

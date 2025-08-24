@@ -8,6 +8,7 @@ import About from "./Pages/About/About";
 import Projects from "./Pages/Projects/Projects";
 import Service from "./Pages/Services/Services";
 import FloatingChatButtons from "./Components/FloatingChatButtons";
+import Gallery from "./Pages/Gallery/Gallery";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/service" element={<Service />} />
+        <Route path="/gallery" element={<Gallery/>} />
       </Routes>
       <Footer />
       {/* <WhatsAppChat />  */}
