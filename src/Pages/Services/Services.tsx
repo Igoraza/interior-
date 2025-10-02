@@ -65,7 +65,7 @@ export default function Service() {
     },
     {
       icon: <FaUtensils className="text-pink-500 text-xl" />,
-      title: "Kitchen Interior",
+      title: "All Interior",
       description:
         "We create stylish, ergonomic, and efficient kitchen interiors — combining smart storage, modern appliances, and elegant finishes.",
     },
