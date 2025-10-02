@@ -58,11 +58,10 @@ const Footer: React.FC = () => {
             <div className="flex flex-col">
               <h3 className="font-semibold text-lg mb-4">Location</h3>
               <ul className="space-y-2 text-sm">
-                
-                <li>Alappuzha</li>
-                <li>Ernakulam</li>
-                <li>Kottayam</li>
-                <li>Kollam</li>
+                <li>Kerala</li>
+                <li>Bangalore</li>
+                <li>Mumbai</li>
+                <li>Chhattisgarh</li>
               </ul>
             </div>
 
